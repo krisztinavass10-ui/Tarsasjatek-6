@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Társasjáték</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Társasjáték kérdések</h1>
+
+<div id="category-container">
+    <button class="category-btn main-category" onclick="chooseDifficulty('felelsz')">Felelsz</button>
+    <button class="category-btn main-category" onclick="chooseDifficulty('merszek')">Mersz</button>
+    <button class="category-btn main-category" onclick="chooseDifficulty('csokhazassag')">Csók/Házasság/Halál</button>
+    <button class="category-btn main-category" onclick="chooseDifficulty('mostlikely')">Most Likely To</button>
+    <button class="category-btn main-category" onclick="chooseDifficulty('inkabb')">Inkább</button>
+    <button class="category-btn main-category" onclick="chooseDifficulty('mutasdmeg')">Mutasd meg az utolsót</button>
+    <button class="category-btn main-category" onclick="showTortenelemLocations()">Történelem</button>
+</div>
+
+<div id="difficulty-container"></div>
+<div id="questions-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
